@@ -51,16 +51,6 @@ pip install -r requirements.txt
 
 > Ensure Python 3.8+ is installed on your system.
 
-### Step 3: Run the Program
-
-Execute the main Python script:
-
-```bash
-python main.py
-```
-
-The processed output will be displayed and saved as a video file in the project directory.
-
 
 ## 📊 Output
 
@@ -69,7 +59,9 @@ The processed output will be displayed and saved as a video file in the project 
 * Vehicle position relative to lane center
 * Output video file generated automatically
 
-
+<img width="1120" height="633" alt="image" src="https://github.com/user-attachments/assets/65bbca1a-035c-4304-8d1d-ea0d5c3d7934" />
+<img width="1117" height="627" alt="image" src="https://github.com/user-attachments/assets/41c4a13c-cd90-4746-ab7f-43ba61d76103" />
+<img width="1117" height="625" alt="image" src="https://github.com/user-attachments/assets/3ae608ea-ab79-48e5-a4b0-e3e2d9356f06" />
 
 ## 🔬 Research Significance
 
@@ -96,17 +88,12 @@ This project builds a strong foundation for further research in:
 Such research may contribute to academic publications, graduate-level study, and industry applications in intelligent mobility.
 
 
+## 👤 Author
 
-## 📬 Contact
+**HOSEN ARAFAT**  
 
-For questions or collaboration inquiries:
+**Software Engineer, China**  
 
-**Arafat Hosen**
-Email: [arafat.bd.hosen@gmail.com](mailto:arafat.bd.hosen@gmail.com)
-WhatsApp: +8801744805068
-WeChat: arafat_cn
-QQ: 3522584423
+**GitHub:** https://github.com/arafathosense
 
----
-
-If you would like, I can also prepare a **more research-focused version tailored specifically for CSC scholarship submission**, with emphasis on methodology, academic contribution, and future research proposal alignment.
+**Researcher: Artificial Intelligence, Machine Learning, Deep Learning, Computer Vision, Image Processing**
