@@ -32,26 +32,6 @@ It serves as a practical introduction to intelligent transportation systems and 
 * MoviePy
 * Matplotlib
 
-
-## ⚙️ Installation & Setup
-
-### Step 1: Clone or Download the Repository
-
-Download the project files and open the folder using **PyCharm** (or any Python IDE).
-
-### Step 2: Install Dependencies
-
-Open the terminal inside the project directory and run:
-
-```bash
-pip uninstall moviepy -y
-pip install moviepy==1.0.3
-pip install -r requirements.txt
-```
-
-> Ensure Python 3.8+ is installed on your system.
-
-
 ## 📊 Output
 
 * Detected lane boundaries visualized on each video frame
