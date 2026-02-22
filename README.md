@@ -1,56 +1,112 @@
-# Advanced Lane Detection Image Processing Computer Vision
+# Advanced Lane Detection
 
-Advanced lane detection is a technology that helps cars understand road lanes using cameras and computer programs. It utilizes image processing to clean and highlight key elements of the road, such as lane lines. Then, computer vision algorithms detect and track these lanes in real time. This helps improve road safety, autonomous driving, and driver assistance systems.
+## 📌 Project Overview
 
-In the future, if you want to work in research, you can build on projects like this by using artificial intelligence and deep learning. For example, you can train neural networks to detect lanes in more difficult conditions, like at night, in the rain, or when the lanes are worn out. Research in this field can help develop smarter self-driving cars, enhance traffic safety, and reduce the incidence of accidents.
+The **Advanced Lane Detection** is a computer vision–based project designed to detect and track road lane markings using image processing and classical computer vision techniques. The system processes road images and video streams to identify lane boundaries in real time.
 
-By studying and experimenting with lane detection and other computer vision problems, you will learn how machines see and understand the world, which is very useful in AI, robotics, and autonomous systems. Research in this field can also lead to publications, higher studies, and job opportunities in tech companies or universities.
+This project demonstrates foundational concepts in:
 
+* Image preprocessing
+* Feature extraction
+* Perspective transformation
+* Polynomial curve fitting
+* Real-time video processing
 
+It serves as a practical introduction to intelligent transportation systems and autonomous driving technologies.
 
-**🧠 Installation & Setup Guide**
+## 🎯 Objectives
 
-**Step 1:** Download the source code from this repository and open the folder in PyCharm.
-
-**Step 2:** Open the terminal and install the required dependencies by running the following commands:
-
-           pip uninstall moviepy -y
-           pip install moviepy==1.0.3
-                       
-
-**Step 3:** Wait until all installations are completed successfully. Then, run the program and see your result!
-
-
-**Output**
-
-<img width="640" height="480" alt="Figure_1" src="https://github.com/user-attachments/assets/86f3cbc8-933f-40ff-b6f6-1f592ac8f86f" />
-<img width="596" height="323" alt="Figure_2" src="https://github.com/user-attachments/assets/c1012407-3554-46eb-a275-8a218c0a3097" />
+* Detect lane lines from road images and videos
+* Apply image filtering and edge detection techniques
+* Perform perspective (bird’s-eye view) transformation
+* Fit polynomial curves to lane boundaries
+* Overlay detected lanes onto the original video frames
+* Generate an output video with detected lanes
 
 
-Also, output video to the file. Please check.
+## 🛠 Technologies Used
+
+* Python
+* OpenCV
+* NumPy
+* MoviePy
+* Matplotlib
+
+
+## ⚙️ Installation & Setup
+
+### Step 1: Clone or Download the Repository
+
+Download the project files and open the folder using **PyCharm** (or any Python IDE).
+
+### Step 2: Install Dependencies
+
+Open the terminal inside the project directory and run:
+
+```bash
+pip uninstall moviepy -y
+pip install moviepy==1.0.3
+pip install -r requirements.txt
+```
+
+> Ensure Python 3.8+ is installed on your system.
+
+### Step 3: Run the Program
+
+Execute the main Python script:
+
+```bash
+python main.py
+```
+
+The processed output will be displayed and saved as a video file in the project directory.
+
+
+## 📊 Output
+
+* Detected lane boundaries visualized on each video frame
+* Curvature estimation of lane lines
+* Vehicle position relative to lane center
+* Output video file generated automatically
 
 
 
-**📬 Contact**
+## 🔬 Research Significance
 
-If you face any problems, feel free to reach out:
+Lane detection is a critical component of:
+
+* Advanced Driver Assistance Systems (ADAS)
+* Autonomous vehicles
+* Intelligent transportation systems
+
+Future research directions include:
+
+* Deep learning–based lane detection (e.g., CNN-based segmentation models)
+* Robust detection under adverse conditions (night, rain, shadows)
+* Real-time embedded system optimization
+* Integration with object detection and path planning systems
+
+This project builds a strong foundation for further research in:
+
+* Artificial Intelligence
+* Computer Vision
+* Robotics
+* Autonomous Systems
+
+Such research may contribute to academic publications, graduate-level study, and industry applications in intelligent mobility.
 
 
-Email: arafat.bd.hosen@gmail.com
 
-**WhatsApp: +8801744805068**
+## 📬 Contact
 
-**WeChat: arafat_cn**
+For questions or collaboration inquiries:
 
-**QQ: 3522584423**
+**Arafat Hosen**
+Email: [arafat.bd.hosen@gmail.com](mailto:arafat.bd.hosen@gmail.com)
+WhatsApp: +8801744805068
+WeChat: arafat_cn
+QQ: 3522584423
 
+---
 
-
-
-
-
-
-
-
-
-
+If you would like, I can also prepare a **more research-focused version tailored specifically for CSC scholarship submission**, with emphasis on methodology, academic contribution, and future research proposal alignment.
