@@ -67,7 +67,6 @@ This project builds a strong foundation for further research in:
 
 Such research may contribute to academic publications, graduate-level study, and industry applications in intelligent mobility.
 
-
 ## 👤 Author
 
 **HOSEN ARAFAT**  
